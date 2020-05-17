@@ -1,0 +1,47 @@
+{
+  "name": "ink-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Boiler plate for Ink with TypeScript",
+  "main": "dist/index.js",
+  "repository": "https://github.com/D3kion/ink-ts-boilerplate.git",
+  "author": "D3kion <dekion.dev@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "ink", "typescript", "terminal", "console",
+    "boilerplate", "ts", "react"
+  ],
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx build && node dist/index.js",
+    "watch": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint-with-tests": "tsdx lint",
+    "lint": "tsdx lint src"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "module": "dist/test-lib.esm.js",
+  "dependencies": {
+    "@types/react": "^16.9.35",
+    "ink": "^2.7.1",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "tsdx": "^0.13.2",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.2"
+  }
+}
