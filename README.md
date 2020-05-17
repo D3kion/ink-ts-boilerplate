@@ -1,4 +1,10 @@
 # Ink w/ TypeScript Boilerplate
+
+## Ink
+This boilerplate was built on top of [Ink](https://github.com/vadimdemedes/ink).
+
+## Useful commands
+
 Below is a list of commands you will probably find useful.
 
 ### `npm start` or `yarn start`
